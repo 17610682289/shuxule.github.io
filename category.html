@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>疏许乐博客栏目-后端程序</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/nprogress.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="apple-touch-icon-precomposed" href="images/icon/icon.png">
+<link rel="shortcut icon" href="images/icon/favicon.ico">
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/nprogress.js"></script>
+<script src="js/jquery.lazyload.min.js"></script>
+<!--[if gte IE 9]>
+  <script src="js/jquery-1.11.1.min.js" type="text/javascript"></script>
+  <script src="js/html5shiv.min.js" type="text/javascript"></script>
+  <script src="js/respond.min.js" type="text/javascript"></script>
+  <script src="js/selectivizr-min.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+  <script>window.location.href='upgrade-browser.html';</script>
+<![endif]-->
+</head>
+
+<body class="user-select">
+<header class="header">
+  <nav class="navbar navbar-default" id="navbar">
+    <div class="container">
+      <div class="header-topbar hidden-xs link-border">
+        <ul class="site-nav topmenu">
+          <li><a href="readers.html" rel="nofollow">读者墙</a></li>
+          <li><a href="links.html" rel="nofollow">友情链接</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" rel="nofollow">关注本站 <span class="caret"></span></a>
+            <ul class="dropdown-menu header-topbar-dropdown-menu">
+              <li><a data-toggle="modal" data-target="#WeChat" rel="nofollow"><i class="fa fa-weixin"></i> 微信</a></li>
+              <li><a data-toggle="modal" data-target="#areDeveloping" rel="nofollow"><i class="fa fa-rss"></i> 微博</a></li>
+              <li><a data-toggle="modal" data-target="#areDeveloping" rel="nofollow"><i class="fa fa-rss"></i> RSS</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="javascript:;" class="login" rel="nofollow">Hi,请登录</a>&nbsp;&nbsp;<a href="javascript:;" class="register" rel="nofollow">我要注册</a>&nbsp;&nbsp;<a href="" rel="nofollow">找回密码</a> </div>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar" aria-expanded="false"> <span class="sr-only"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <h1 class="logo hvr-bounce-in"><a href="index.html" title=""><img src="images/logo.png" alt=""></a></h1>
+      </div>
+      <div class="collapse navbar-collapse" id="header-navbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a  href="index.html">首页</a></li>
+          <li class="hidden-index active"><a data-cont="学无止境" href="category.html">学无止境</a></li>
+          <li><a href="category.html">个人日记</a></li>
+          <li><a href="category.html">关于疏许乐</a></li>
+          <li><a href="category.html">技术交流</a></li>
+          <li><a href="category.html">留言板</a></li>
+        </ul>
+        <form class="navbar-form visible-xs" action="/Search" method="post">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" placeholder="请输入关键字" maxlength="20" autocomplete="off">
+            <span class="input-group-btn">
+            <button class="btn btn-default btn-search" name="search" type="submit">搜索</button>
+            </span> </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<section class="container">
+  <div class="content-wrap">
+    <div class="content">
+      <div class="title">
+        <h3>学无止境</h3>
+        <div class="more"><a href="">Java</a><a href="">Python</a><a href="">JavaScript</a><a href="">Oracle</a><a href="">MySQL</a></div>
+      </div>
+      <article class="excerpt excerpt-1"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">后端程序<i></i></a>
+          <h2><a href="article.html" title="">jvm--从java类的编译到垃圾回收</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">1.javac编译的四个阶段词法分析，语法分析，语义分析到字节码的生成。--将.java转化成.class的字节码文件2.类加载过程 ... </p>
+      </article>
+
+      <article class="excerpt excerpt-2"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">后端程序<i></i></a>
+          <h2><a href="article.html" title="">Java自动装箱和自动拆箱</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">自动装箱:
+          当你用基本类型的值给它的包装类赋值时，系统会自动将基本类型转换成它的包装类型。
+          <br/>自动拆箱:
+          和自动装箱相反，当你需要基本类型的时候，系统也会自动的将包装类转换成基本类型。
+      </article>
+
+      <article class="excerpt excerpt-3"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">后端程序<i></i></a>
+          <h2><a href="article.html" title="">Java死锁例子</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">产生死锁的四个条件：占有等待、互斥、循环等待、非剥夺。 Java死锁栗子： public class Main { //两把钥匙 static Object ... </p>
+      </article>
+
+      <article class="excerpt excerpt-4"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/timg.jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">后端程序<i></i></a>
+          <h2><a href="article.html" title="">Python 能干什么(一)</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">当你看到 Python 的时候, 心里想 “蛇?!”,请从0节开始;“这是测试的事”,请跳转第2节;“脚本语言”,请跳转到3节;“不适用于大工程”,请跳转4节... </p>
+      </article>
+
+      <article class="excerpt excerpt-5"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/timg (1).jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">数据库<i></i></a>
+          <h2><a href="article.html" title="">mysql5.7.20如何卸载干净再重装</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">找了网上的很多办法之后，其实卸载方法很多已经不适合现在使用了。 首先，我没有在控制面板并没有发现mysql安装程序，无从卸载。 卸载不干净重装不了 【已解决！试了网上各种办法之后。。。点子来了】" title="mysql5.7 卸载不干净重装不了 【已解决！试了网上各种办法之后... </p>
+      </article>
+
+      <article class="excerpt excerpt-6"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/u=1121320449,3069376197&fm=27&gp=0.jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">数据库<i></i></a>
+          <h2><a href="article.html" title="">navicat连接sqlserver数据库</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">一、nacicat连接本地sqlserver数据库　 二、nacicat连接远程sqlserver数据库 ... </p>
+      </article>
+
+      <article class="excerpt excerpt-7"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/timg (2).jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">前端<i></i></a>
+          <h2><a href="article.html" title="">Javascript到底能做什么?</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">Ajax火了,有人开始质疑Javascript的能力,包括我。:P    不过,有时候可能是我们自己的能力问题。比如,你可能已经知道的,Yahoo!的Yui。有人对. ... </p>
+      </article>
+
+      <article class="excerpt excerpt-8"><a class="focus" href="article.html" title=""><img class="thumb" data-original="images/index/timg (3).jpg" src="images/excerpt.jpg" alt=""></a>
+        <header><a class="cat" href="program">虚拟机<i></i></a>
+          <h2><a href="article.html" title="">VMware一些使用心得</a></h2>
+        </header>
+        <p class="meta">
+          <time class="time"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39</time>
+          <span class="views"><i class="glyphicon glyphicon-eye-open"></i> 共120人围观</span> <a class="comment" href="article.html#comment"><i class="glyphicon glyphicon-comment"></i> 0个不明物体</a></p>
+        <p class="note">这段时间VMware workstation用得较多,装了好几个虚拟机,有win2003,win2008,win7,还分32位,64位。装了这么多,要么是用于安装一些软件,比如oracle12c,因为宿主机 ... </p>
+      </article>
+
+    </div>
+  </div>
+  <aside class="sidebar">
+    <div class="fixed">
+      <div class="widget widget_search">
+        <form class="navbar-form" action="/Search" method="post">
+          <div class="input-group">
+            <input type="text" name="keyword" class="form-control" size="35" placeholder="请输入关键字" maxlength="15" autocomplete="off">
+            <span class="input-group-btn">
+            <button class="btn btn-default btn-search" name="search" type="submit">搜索</button>
+            </span> </div>
+        </form>
+      </div>
+      <div class="widget widget_sentence">
+        <h3>每日一句</h3>
+        <div class="widget-sentence-content">
+          <h4>2017年05月17日星期四</h4>
+          <p>想要做成一件事，除了勤奋，还需要专注与热爱，三者缺一不可。这样才有可能会成功！</p>
+        </div>
+      </div>
+    </div>
+    <div class="widget widget_hot">
+      <h3>热门文章</h3>
+      <ul>
+        <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" src="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" alt=""></span><span class="text">从java类的编译到垃圾回收</span><span class="muted"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+        <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" src="images/index/u=3136888621,3743655201&fm=27&gp=0.jpg" alt=""></span><span class="text">Java自动装箱和自动拆箱</span><span class="muted"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+        <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/index/timg.jpg" src="images/index/timg.jpg" alt=""></span><span class="text">Python 能干什么(一)</span><span class="muted"><i class="glyphicon glyphicon-time"></i> 2018-5-18 10:29:39 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+        <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/index/timg (1).jpg" src="images/index/timg (1).jpg" alt=""></span><span class="text">mysql5.7.20如何卸载干净再重装</span><span class="muted"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+        <li><a href=""><span class="thumbnail"><img class="thumb" data-original="images/index/timg (2).jpg" src="images/index/timg (2).jpg" alt=""></span><span class="text">Javascript到底能做什么?</span><span class="muted"><i class="glyphicon glyphicon-time"></i> 2018-5-19 10:29:39 </span><span class="muted"><i class="glyphicon glyphicon-eye-open"></i> 120</span></a></li>
+      </ul>
+    </div>
+  </aside>
+</section>
+<footer class="footer">
+  <div class="container">
+    <br>&copy; 2017-2018 <a href="">shuxule.net</a> &nbsp; <a href="#" target="_blank" rel="nofollow">豫ICP备20151109-1</a> &nbsp; &nbsp; <br/><br/> <a href="http://www.shuxule.net/" target="_blank">All copyrights of Shu Xu Le</a></p>
+  </div>
+  <div id="gotop"><a class="gotop"></a></div>
+</footer>
+<!--微信二维码模态框-->
+<div class="modal fade bs-example-modal-lg user-select" id="WeChat" tabindex="-1" role="dialog" aria-labelledby="WeChatModalLabel">
+  <div class="modal-dialog modal-lg" role="document" style="margin-top:120px;max-width:705px;max-height:900px;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="WeChatModalLabel" style="cursor:default;">微信扫一扫</h4>
+      </div>
+      <div class="modal-body" style="text-align:center"> <img src="images/weixin.png" width="674px" height="896px" alt="" style="cursor:pointer"/> </div>
+    </div>
+  </div>
+</div>
+<!--该功能正在日以继夜的开发中-->
+<div class="modal fade user-select" id="areDeveloping" tabindex="-1" role="dialog" aria-labelledby="areDevelopingModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="areDevelopingModalLabel" style="cursor:default;">该功能正在日以继夜的开发中…</h4>
+      </div>
+      <div class="modal-body"> <img src="images/baoman/baoman_01.gif" alt="深思熟虑" />
+        <p style="padding:15px 15px 15px 100px; position:absolute; top:15px; cursor:default;">很抱歉，程序猿正在日以继夜的开发此功能，本程序将会在以后的版本中持续完善！</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">朕已阅</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--右键菜单列表-->
+<div id="rightClickMenu">
+  <ul class="list-group rightClickMenuList">
+    <li class="list-group-item disabled">Hi,?   欢迎访问疏许乐博客</li>
+    <li class="list-group-item"><span>地址：</span>北京市海淀区中关村大华科技商厦三层C座</li>
+    <li class="list-group-item"><span></span>All copyrights of Shu Xu Le</li>
+  </ul>
+</div>
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.ias.js"></script> 
+<script src="js/scripts.js"></script>
+</body>
+</html>
